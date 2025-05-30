@@ -1,0 +1,19 @@
+name: kaggle_cmi_bfrb
+
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- jupyterlab
+- pandas
+- numpy
+- scipy
+- scikit-learn
+- holoviews
+- matplotlib
+- seaborn
+- pip
+- pip:
+  - ipykernel
+  - ./src/kaggle_evaluation
