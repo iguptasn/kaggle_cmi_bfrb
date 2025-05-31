@@ -6,6 +6,7 @@ channels:
 
 dependencies:
 - jupyterlab
+- polars
 - pandas
 - numpy
 - scipy
@@ -16,4 +17,3 @@ dependencies:
 - pip
 - pip:
   - ipykernel
-  - ./src/kaggle_evaluation
